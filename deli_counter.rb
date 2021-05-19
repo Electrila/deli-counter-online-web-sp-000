@@ -19,7 +19,7 @@ end
 def take_a_number(katz_deli, name)
   line = ""
   if katz_deli.length == 0
-    line << "#{name}"
+    line << "Welcome, #{name}. You are number 1 in line."
   #else
     #katz_deli << "#{name}"
   end
