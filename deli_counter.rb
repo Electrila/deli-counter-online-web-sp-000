@@ -20,7 +20,8 @@ def take_a_number(katz_deli, name)
     katz_deli << name
     line = "Welcome, #{name}. You are number #{katz_deli.length} in line."
   else
-    
+    katz_deli << name
+    line = "Welcome, #{name}. You are number #{katz_deli.length} in line."
   end
   puts line
 end
